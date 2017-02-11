@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-exec",
   "main": "./lib/tool-bar-exec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super productive custom toolbar build to go with suda's tool-bar",
   "homepage": "https://github.com/theexec/tool-bar-exec#readme",
   "keywords": [
