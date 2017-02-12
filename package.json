@@ -1,31 +1,31 @@
 {
   "name": "tool-bar-exec",
-  "main": "./lib/tool-bar-exec",
-  "version": "0.0.2",
+  "bugs": {
+    "url": "https://github.com/theexec/tool-bar-exec/issues"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^3.0.7"
+  },
   "description": "A super productive custom toolbar build to go with suda's tool-bar",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
   "homepage": "https://github.com/theexec/tool-bar-exec#readme",
   "keywords": [
     "toolbar",
     "tool-bar"
   ],
-  "activationCommands": {
-    "atom-workspace": "tool-bar-exec:toggle"
-  },
-  "bugs": {
-    "url": "https://github.com/theexec/tool-bar-exec/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theexec/tool-bar-exec.git"
-  },
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
+  "main": "./lib/tool-bar-exec",
   "optionalDependencies": {},
-  "dependencies": {
-    "atom-package-deps": "^3.0.7"
-  },
   "package-deps": [
     "tool-bar",
     "ask-stack",
@@ -44,14 +44,13 @@
     "navigate",
     "atom-keyboard-macros",
     "todo-show"
+
   ],
-  "consumedServices": {
-    "tool-bar": {
-      "versions": {
-        "^0 || ^1": "consumeToolBar"
-      }
-    }
-  },
   "readme": "# Tool Bar layout reworked by theexec\n\nSimple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package.\n\n![Main Tool Bar](http://f.cl.ly/items/3B3O471G3h3d0x0l0313/Screenshot-2014-10-22-11.37.54.png)\n\n# Buttons\n\n* New File\n* Open...\n* Save\n* Find in Buffer\n* Replace in Buffer\n* Toggle Command Palette\n* Open Settings View\n\nWhen in **dev mode** it adds two more buttons:\n\n* Reload Window\n* Toggle Developer Tools\n",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theexec/tool-bar-exec.git"
+  },
+  "version": "0.0.2"
 }

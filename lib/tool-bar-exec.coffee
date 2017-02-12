@@ -1,6 +1,6 @@
 module.exports =
   activate: (state) ->
-    require('atom-package-deps').install('tool-bar-main')
+    require('atom-package-deps').install('tool-bar-exec')
     require('atom-package-deps').install('ask-stack')
     require('atom-package-deps').install('export-html')
     require('atom-package-deps').install('project-manager')
@@ -17,7 +17,6 @@ module.exports =
     require('atom-package-deps').install('navigate')
     require('atom-package-deps').install('atom-keyboard-macros')
     require('atom-package-deps').install('todo-show')
-
   deactivate: ->
     @toolBar?.removeItems()
 
