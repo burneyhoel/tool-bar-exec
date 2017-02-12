@@ -44,7 +44,6 @@
     "navigate",
     "atom-keyboard-macros",
     "todo-show"
-
   ],
   "readme": "# Tool Bar layout reworked by theexec\n\nSimple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package.\n\n![Main Tool Bar](http://f.cl.ly/items/3B3O471G3h3d0x0l0313/Screenshot-2014-10-22-11.37.54.png)\n\n# Buttons\n\n* New File\n* Open...\n* Save\n* Find in Buffer\n* Replace in Buffer\n* Toggle Command Palette\n* Open Settings View\n\nWhen in **dev mode** it adds two more buttons:\n\n* Reload Window\n* Toggle Developer Tools\n",
   "readmeFilename": "README.md",
@@ -52,5 +51,5 @@
     "type": "git",
     "url": "git+https://github.com/theexec/tool-bar-exec.git"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
